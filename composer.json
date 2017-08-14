@@ -1,0 +1,22 @@
+{
+    "name": "findyanot/qiwi_api_php",
+    "description": "API client for Qiwi (Account API)",
+    "keywords": ["qiwi", "api", "package"],
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Artem Yanovsky",
+            "email": "mail@findyanot.ru"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.4"
+    },
+	"autoload": {
+        "psr-4": {
+            "FindYanot\\": "src/"
+        }
+    }
+}
